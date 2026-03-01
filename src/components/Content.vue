@@ -12,16 +12,16 @@
       </p>
     </div>
     <div class="section">
-      <h2>Projects</h2>
+      <h2>My Work</h2>
       <div class="feature-divider" />
-      <p>Here is a list of projects I have worked on</p>
+      <p>Here is a collection of my paid work</p>
       <div class="projects">
-        <div class="project">
+        <a class="project" href="https://central.unmanic.app/" target="_blank">
           <img
             src="../assets/projects/unmanic-metrics-screenshot.png"
             class="project-img"
           />
-          <h3 class="project-title">Unmanic Metrics</h3>
+          <h3 class="project-title">Unmanic Central</h3>
           <p class="project-description">
             Premium dashboard to view user metrics for the open source project
             Unmanic
@@ -31,36 +31,9 @@
             <p>JavaScript</p>
             <p>LogQL</p>
           </div>
-        </div>
-        <div class="project">
-          <img
-            src="../assets/projects/decentralaw-screenshot.png"
-            class="project-img"
-          />
-          <h3 class="project-title">Decentralawyer Website</h3>
-          <p class="project-description">
-            Developed and co-designed a responsive website for a crypto law firm
-          </p>
-          <div class="tags">
-            <p>Astro</p>
-            <p>CSS</p>
-            <p>JavaScript</p>
-          </div>
-        </div>
-        <div class="project">
-          <img src="../assets/projects/SpaceCraft.png" class="project-img" />
-          <h3 class="project-title">SpaceCraft</h3>
-          <p class="project-description">
-            Space themed incremental mobile game, created with Java/LibGDX
-            framework
-          </p>
-          <div class="tags">
-            <p>Android</p>
-            <p>Java</p>
-            <p>LibGDX</p>
-          </div>
-        </div>
-        <div class="project">
+        </a>
+
+        <a class="project" href="https://flexengineering.co.nz" target="_blank">
           <img src="../assets/projects/flex-website.png" class="project-img" />
           <h3 class="project-title">Flex Engineering Website</h3>
           <p class="project-description">
@@ -68,28 +41,13 @@
             to client's needs
           </p>
           <div class="tags">
-            <p>Astro</p>
-            <p>CSS</p>
+            <p>WordPress</p>
+            <p>CMS</p>
             <p>JavaScript</p>
           </div>
-        </div>
-        <div class="project">
-          <img
-            src="../assets/projects/flex-website-image.png"
-            class="project-img"
-          />
-          <h3 class="project-title">SpaceCraft</h3>
-          <p class="project-description">
-            Lorem Ipsum is the standard dummy text of the printing and
-            publishing industry, used since 1500
-          </p>
-          <div class="tags">
-            <p>Android</p>
-            <p>Java</p>
-            <p>LibGDX</p>
-          </div>
-        </div>
-        <div class="project">
+        </a>
+
+        <a class="project" href="https://4ozstudio.com" target="_blank">
           <img
             src="../assets/projects/4ozstudio-screenshot.png"
             class="project-img"
@@ -100,11 +58,72 @@
             match their creative direction
           </p>
           <div class="tags">
-            <p>Android</p>
-            <p>Java</p>
-            <p>LibGDX</p>
+            <p>Astro</p>
+            <p>JavaScript</p>
+            <p>CSS</p>
           </div>
-        </div>
+        </a>
+        <a class="project" href="https://decentralaw.ai" target="_blank">
+          <img
+            src="../assets/projects/decentralaw-screenshot.png"
+            class="project-img"
+          />
+          <h3 class="project-title">Decentralawyer Website</h3>
+          <p class="project-description">
+            Developed and co-designed a responsive website for a crypto law firm
+          </p>
+          <div class="tags">
+            <p>Astro</p>
+            <p>JavaScript</p>
+            <p>CSS</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="section">
+      <h2>Side Projects</h2>
+      <div class="feature-divider" />
+      <div class="projects">
+        <a
+          class="project"
+          href="https://github.com/ManawatuCoder/AIConvenienceAPI"
+          target="_blank"
+        >
+          <img
+            src="../assets/side-projects/Azure-SDK-Generator-Github.png"
+            class="project-img"
+          />
+          <h3 class="project-title">Azure SDK Convenience Wrapper Generator</h3>
+          <p class="project-description">
+            AI-powered tool that generates convenience wrapper methods for Azure
+            SDK Java client libraries
+          </p>
+          <div class="tags">
+            <p>Astro</p>
+            <p>CSS</p>
+            <p>JavaScript</p>
+          </div>
+        </a>
+        <a
+          class="project"
+          href="https://github.com/adub20018/rapGPT"
+          target="_blank"
+        >
+          <img
+            src="../assets/side-projects/rapGPT-img.png"
+            class="project-img"
+          />
+          <h3 class="project-title">RapGPT</h3>
+          <p class="project-description">
+            Premium dashboard to view user metrics for the open source project
+            Unmanic
+          </p>
+          <div class="tags">
+            <p>Vue.js</p>
+            <p>JavaScript</p>
+            <p>LogQL</p>
+          </div>
+        </a>
       </div>
     </div>
   </div>
@@ -120,17 +139,19 @@
 .projects {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0.5rem;
 }
 .project {
-  max-width: 250px;
+  text-decoration: none;
+  color: var(--color-text);
   margin-top: 1.5rem;
   padding: 0.8rem;
   transition: ease-in-out 0.2s;
+  border-radius: 1rem;
 }
 .project:hover {
   background-color: var(--color-background-transparent);
   padding: 0.8rem;
-  border-radius: 1rem;
 }
 .project-img {
   width: 100%;
