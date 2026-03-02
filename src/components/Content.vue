@@ -1,7 +1,7 @@
 <template>
   <div class="card content">
     <div class="section">
-      <h2>About Me</h2>
+      <h2 class="title">About Me</h2>
       <div class="feature-divider" />
       <p>
         I started out freelancing as a web designer/developer, working directly
@@ -16,7 +16,7 @@
       </p>
     </div>
     <div class="section">
-      <h2>My Work</h2>
+      <h2 class="title">My Work</h2>
       <div class="feature-divider" />
       <p>Here is a collection of my paid work</p>
       <div class="projects">
@@ -76,7 +76,7 @@
       </div>
     </div>
     <div class="section">
-      <h2>My Projects</h2>
+      <h2 class="title">My Projects</h2>
       <div class="feature-divider" />
       <p>These are unpaid projects that I created and/or collaborated on</p>
       <div class="projects">
@@ -128,9 +128,16 @@
 
 <style>
 .content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
   width: 100%;
   max-width: 1024px;
   height: fit-content;
+}
+
+.title {
+  font-size: 28px;
 }
 
 .projects {
@@ -168,6 +175,7 @@
 }
 .tags p {
   border-radius: 8px;
+  font-size: 12px;
   padding: 0.2rem 0.5rem;
   background-color: var(--color-feature-transparent);
   color: var(--color-feature);

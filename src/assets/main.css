@@ -15,10 +15,6 @@
   color: var(--color-text-passive);
 }
 
-.section {
-  margin-bottom: 3rem;
-}
-
 a {
   color: var(--color-link);
 }
