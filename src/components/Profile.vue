@@ -14,44 +14,40 @@
     <div class="divider"></div>
 
     <div class="contact">
-      <div class="contact-link">
+      <a class="contact-link" href="mailto:alex.w.malone128@gmail.com">
         <div class="icon-container">
           <img src="../assets/mail-logo.svg" />
         </div>
         <div class="contact-content">
           <p class="text-passive">EMAIL</p>
-          <a href="mailto:alex.w.malone128@gmail.com">
-            alex.w.malone128@gmail.com
-          </a>
+          <p>alex.w.malone128@gmail.com</p>
         </div>
-      </div>
-      <div class="contact-link">
+      </a>
+      <a class="contact-link" href="tel:alex.w.malone128@gmail.com">
         <div class="icon-container">
           <img src="../assets/phone.svg" />
         </div>
         <div class="contact-content">
           <p class="text-passive">PHONE</p>
-          <a href="tel:alex.w.malone128@gmail.com"> +64 27 382 7597 </a>
+          <p>+64 27 382 7597</p>
         </div>
-      </div>
-      <div class="contact-link">
+      </a>
+      <a
+        class="contact-link"
+        href="https://www.google.com/maps/place/melbourne/data=!4m2!3m1!1s0x6ad646b5d2ba4df7:0x4045675218ccd90?sa=X&ved=1t:155783&ictx=111"
+        target="_blank"
+      >
         <div class="icon-container">
           <img src="../assets/map-pin.svg" />
         </div>
         <div class="contact-content">
           <p class="text-passive">LOCATION</p>
-          <a
-            href="https://www.google.com/maps/place/melbourne/data=!4m2!3m1!1s0x6ad646b5d2ba4df7:0x4045675218ccd90?sa=X&ved=1t:155783&ictx=111"
-            target="_blank"
-            >Melbourne, Australia</a
-          >
+          <p>Melbourne, Australia</p>
         </div>
-      </div>
+      </a>
     </div>
 
-    <ul class="contacts-list">
-      <li class="contact-item"></li>
-    </ul>
+    <div class="divider"></div>
 
     <!-- <div class="nav">
       <a>About Me</a>
@@ -143,18 +139,24 @@
   flex-direction: column;
 }
 
-.contacts-list {
-  list-style-type: none;
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 .contact-link {
   display: flex;
   gap: 0.5rem;
   line-height: 1.2;
-  margin-bottom: 1rem;
-}
-.contact-link a {
   color: var(--color-text);
   text-decoration: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+.contact-link:hover {
+  background-color: var(--color-background-transparent);
+}
+.contact-link {
 }
 .icon-container {
   /* background-color: var(--color-background-transparent); */
@@ -172,5 +174,16 @@
   display: flex;
   justify-content: flex-start;
   gap: 0.5rem;
+}
+
+@media screen and (max-width: 972px) {
+  .profile-card {
+    position: static;
+    align-items: center;
+    max-height: 100%;
+  }
+  .social-links > div {
+    justify-content: center;
+  }
 }
 </style>

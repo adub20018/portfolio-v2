@@ -23,8 +23,8 @@
           />
           <h3 class="project-title">Unmanic Central</h3>
           <p class="project-description">
-            Premium dashboard to view user metrics for the open source project
-            Unmanic
+            Premium dashboard for users to view metrics for the open source
+            project Unmanic
           </p>
           <div class="tags">
             <p>Vue.js</p>
@@ -144,7 +144,8 @@
 .project {
   text-decoration: none;
   color: var(--color-text);
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
   padding: 0.8rem;
   transition: ease-in-out 0.2s;
   border-radius: 1rem;

@@ -19,21 +19,15 @@ main {
   gap: 1rem;
 }
 
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+@media screen and (max-width: 972px) {
+  main {
+    flex-direction: column;
   }
+}
 
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
+@media screen and (max-width: 500px) {
+  main {
+    padding: 1rem;
   }
 }
 </style>
