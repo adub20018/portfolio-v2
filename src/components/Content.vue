@@ -21,11 +21,8 @@
       <p>Here is a collection of my paid work</p>
       <div class="projects">
         <a class="project" href="https://central.unmanic.app/" target="_blank">
-          <img
-            src="../assets/projects/unmanic-metrics-screenshot.png"
-            class="project-img"
-          />
-          <h3 class="project-title">Unmanic Central</h3>
+          <img src="../assets/work/Unmanic.png" class="project-img" />
+          <h3 class="project-title">Unmanic Central Web App</h3>
           <p class="project-description">
             Premium dashboard for users to view metrics for the open source
             project Unmanic
@@ -38,7 +35,7 @@
         </a>
 
         <a class="project" href="https://flexengineering.co.nz" target="_blank">
-          <img src="../assets/projects/flex-website.png" class="project-img" />
+          <img src="../assets/work/flex-light.png" class="project-img" />
           <h3 class="project-title">Flex Engineering Website</h3>
           <p class="project-description">
             Improved the design of an existing website to modernise and tailor
@@ -52,11 +49,8 @@
         </a>
 
         <a class="project" href="https://4ozstudio.com" target="_blank">
-          <img
-            src="../assets/projects/4ozstudio-screenshot.png"
-            class="project-img"
-          />
-          <h3 class="project-title">4ozStudio</h3>
+          <img src="../assets/work/4ozStudio.png" class="project-img" />
+          <h3 class="project-title">4ozStudio Website</h3>
           <p class="project-description">
             Created a website for a game studio, worked closely with client to
             match their creative direction
@@ -68,11 +62,8 @@
           </div>
         </a>
         <a class="project" href="https://decentralaw.ai" target="_blank">
-          <img
-            src="../assets/projects/decentralaw-screenshot.png"
-            class="project-img"
-          />
-          <h3 class="project-title">Decentralawyer Website</h3>
+          <img src="../assets/work/Decentralaw.png" class="project-img" />
+          <h3 class="project-title">Decentralaw Website</h3>
           <p class="project-description">
             Developed and co-designed a responsive website for a crypto law firm
           </p>
@@ -87,6 +78,7 @@
     <div class="section">
       <h2>My Projects</h2>
       <div class="feature-divider" />
+      <p>These are unpaid projects that I created and/or collaborated on</p>
       <div class="projects">
         <a
           class="project"
@@ -145,12 +137,11 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 0.5rem;
+  margin-top: 0.5rem;
 }
 .project {
   text-decoration: none;
   color: var(--color-text);
-  margin-top: 0.5rem;
-  margin-bottom: 1.5rem;
   padding: 0.8rem;
   transition: ease-in-out 0.2s;
   border-radius: 1rem;
