@@ -35,7 +35,7 @@
         </a>
 
         <a class="project" href="https://flexengineering.co.nz" target="_blank">
-          <img src="../assets/work/flex-light.png" class="project-img" />
+          <img src="../assets/work/Flex-light.png" class="project-img" />
           <h3 class="project-title">Flex Engineering Website</h3>
           <p class="project-description">
             Improved the design of an existing website to modernise and tailor
