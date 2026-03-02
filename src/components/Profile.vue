@@ -1,13 +1,10 @@
 <template>
   <div class="card profile-card">
     <div class="profile">
-      <img src="../assets/profile-pic.png" class="profile-pic" />
+      <img src="../assets/icons/profile-pic.png" class="profile-pic" />
       <div class="profile-section">
         <h1>Alex Malone</h1>
         <p class="job">Software Developer</p>
-        <!-- <div class="profile-section">
-          <p class="job">Software Developer</p>
-        </div> -->
       </div>
     </div>
 
@@ -16,7 +13,7 @@
     <div class="contact">
       <a class="contact-link" href="mailto:alex.w.malone128@gmail.com">
         <div class="icon-container">
-          <img src="../assets/mail-logo.svg" />
+          <img src="../assets/icons/mail-logo.svg" />
         </div>
         <div class="contact-content">
           <p class="text-passive">EMAIL</p>
@@ -25,7 +22,7 @@
       </a>
       <a class="contact-link" href="tel:alex.w.malone128@gmail.com">
         <div class="icon-container">
-          <img src="../assets/phone.svg" />
+          <img src="../assets/icons/phone.svg" />
         </div>
         <div class="contact-content">
           <p class="text-passive">PHONE</p>
@@ -38,7 +35,7 @@
         target="_blank"
       >
         <div class="icon-container">
-          <img src="../assets/map-pin.svg" />
+          <img src="../assets/icons/map-pin.svg" />
         </div>
         <div class="contact-content">
           <p class="text-passive">LOCATION</p>
@@ -48,11 +45,6 @@
     </div>
 
     <div class="divider"></div>
-
-    <!-- <div class="nav">
-      <a>About Me</a>
-      <a>Projects</a>
-    </div> -->
 
     <div class="social-links">
       <div>

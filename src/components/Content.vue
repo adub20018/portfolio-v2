@@ -4,11 +4,15 @@
       <h2>About Me</h2>
       <div class="feature-divider" />
       <p>
-        Lorem Ipsum is the standard dummy text of the printing and publishing
-        industry, used since the 1500s as placeholder text in design and web
-        development. It features a natural-looking distribution of letters that
-        mimics readable English, allowing designers to focus on layout,
-        typography, and visual form without distracting content
+        I started out freelancing as a web designer/developer, working directly
+        with clients to turn ideas into real, usable products. Over the last few
+        years that's grown into more serious software work, including my first
+        developer internship, contributing to open-source projects, and working
+        on a Microsoft-sponsored AI capstone project.
+        <br /><br />
+        I'm now looking to step into a full-time software development role where
+        I can further refine my skills. If you are looking for a software
+        developer, please get in touch!
       </p>
     </div>
     <div class="section">
@@ -81,7 +85,7 @@
       </div>
     </div>
     <div class="section">
-      <h2>Side Projects</h2>
+      <h2>My Projects</h2>
       <div class="feature-divider" />
       <div class="projects">
         <a
@@ -99,9 +103,10 @@
             SDK Java client libraries
           </p>
           <div class="tags">
-            <p>Astro</p>
-            <p>CSS</p>
-            <p>JavaScript</p>
+            <p>Java</p>
+            <p>OpenAI</p>
+            <p>MCP</p>
+            <p>Azure</p>
           </div>
         </a>
         <a
@@ -119,9 +124,9 @@
             Unmanic
           </p>
           <div class="tags">
-            <p>Vue.js</p>
-            <p>JavaScript</p>
-            <p>LogQL</p>
+            <p>React</p>
+            <p>Next.js</p>
+            <p>OpenAI</p>
           </div>
         </a>
       </div>
