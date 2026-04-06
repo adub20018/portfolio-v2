@@ -103,22 +103,19 @@
         </a>
         <a
           class="project"
-          href="https://github.com/adub20018/rapGPT"
+          href="https://physioai-pro.vercel.app/"
           target="_blank"
         >
-          <img
-            src="../assets/side-projects/rapGPT-img.png"
-            class="project-img"
-          />
-          <h3 class="project-title">RapGPT</h3>
+          <img src="../assets/side-projects/PhysioAI.png" class="project-img" />
+          <h3 class="project-title">PhysioAI</h3>
           <p class="project-description">
-            Premium dashboard to view user metrics for the open source project
-            Unmanic
+            AI powered physiotherapy assistant. Analyses user videos to provide
+            tailored advice and workout programs
           </p>
           <div class="tags">
             <p>React</p>
             <p>Next.js</p>
-            <p>OpenAI</p>
+            <p>Claude</p>
           </div>
         </a>
       </div>
